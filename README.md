@@ -16,4 +16,4 @@ Este é o meu primeiro projeto desenvolvido utilizando React Native. O objetivo 
 - Integração com Redes Sociais
 
 ## Capturas de Tela
-<img src="./image/WhatsApp Image 2024-07-28 at 08.58.14.jpeg"/>
+<img src="./image/WhatsApp Image 2024-07-28 at 08.58.14.jpeg" width="500px"/>
