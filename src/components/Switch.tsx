@@ -1,4 +1,4 @@
-import { Switch as NativeSwitch } from 'react-native';
+import { Switch as NativeSwitch } from 'react-native'
 import {colors} from "@/styles/colors"
 
 function Switch({
@@ -8,12 +8,12 @@ function Switch({
     <NativeSwitch
       trackColor={{
         true: colors.green[400],
-        false: colors.green[500]
+        false: colors.green[500],
       }}
       thumbColor={colors.green[500]}
       {...props}
     />
-  );
+  )
 }
 
 export { Switch };

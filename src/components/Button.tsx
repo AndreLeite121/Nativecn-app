@@ -1,14 +1,14 @@
-import { type VariantProps, cva } from 'class-variance-authority';
-import { Text, TouchableOpacity } from 'react-native';
+import { type VariantProps, cva } from 'class-variance-authority'
+import { Text, TouchableOpacity } from 'react-native'
 
-import { cn } from '../lib/utils';
+import { cn } from '../lib/utils'
 
 const buttonVariants = cva(
   'flex flex-row items-center justify-center rounded-md',
   {
     variants: {
       variant: {
-        default: 'bg-green[500]',
+        default: "bg-green-500",
         secondary: 'bg-secondary',
         destructive: 'bg-destructive',
         ghost: 'bg-slate-700',
